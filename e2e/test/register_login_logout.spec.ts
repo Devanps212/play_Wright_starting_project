@@ -61,6 +61,7 @@ test.describe('Register page', ()=>{
         const email = faker.internet.email()
         const password = faker.internet.password() 
 
+        //Un-comment base URl to avoid this error
         await page.goto('/') 
 
         //Register user
